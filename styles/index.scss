@@ -1,0 +1,61 @@
+@import url( 'https://fonts.googleapis.com/css?family=Aref+Ruqaa|Montserrat|Open+Sans');
+main {
+  height: 80vh;
+  width: 100vw;
+  background-image: url('/assets/weyamle9fdm-ashim-d-silva.jpg');
+  background-size: cover;
+  .title-text {
+    position: absolute;
+    top: 10vh;
+    left: 15vw;
+    color: #eee;
+    h1 {
+      font-family: 'Aref Ruqaa', 'Montserrat', sans-serif;
+      font-size: 3rem;
+    }
+    h3 {
+      line-height: 2rem;
+      font-family: 'Open Sans';
+    }
+  }
+}
+.bottom {
+  width: 100%;
+  height: 20vh;
+  background-color: #CD5823;
+}
+.tabs {
+  border-radius: 3px;
+  position: absolute;
+  background: #201111;
+  top: 30vh;
+  left: 20vw;
+  width: 60vw;
+  height: 55vh;
+  margin: 0 2rem 2rem;
+  div {
+    width: 100%;
+    height: 100%;
+    background: rgb(255, 239, 217);
+  }
+  ul {
+    display: flex;
+    justify-content: flex-start;
+    li {
+      padding: 1rem 2rem;
+      color: #eee;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 100;
+      border-right: solid #eee 0.25px;
+      cursor: pointer;
+      &:hover {
+        background: rgb(255, 239, 217);
+        color: #201111
+      }
+    }
+  }
+}
+li.active {
+  background: rgb(255, 239, 217);
+  color: #201111 !important;
+}

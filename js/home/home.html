@@ -1,0 +1,10 @@
+<div class="tabs">
+  <ul>
+    <li ng-class="getClass('home.welcome')" ui-sref="home.welcome">Home</li>
+    <li ng-class="getClass('home.publications')" ui-sref="home.pub">Publications</li>
+    <li ng-class="getClass('home.cv')" ui-sref="home.cv">CV</li>
+  </ul>
+  <div ng-controller="tabCtrl">
+    <ui-view></ui-view>
+  </div>
+</div>
